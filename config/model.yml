@@ -1,0 +1,20 @@
+device: 'cuda:0'
+word2vec_path : './data/GoogleNews-vectors-negative300.bin'
+max_voc_len : 30
+
+embedding_size : 300
+
+window_size : 3
+
+k_conv_emb : 100
+k_id_emb  : 100
+k_att : 50
+
+k_lfm : 50
+
+save_path : "./data/checkpoints/model.pt"
+
+lr : 0.01
+weight_decay : 0.01
+batch_size : 50
+epoch : 50
